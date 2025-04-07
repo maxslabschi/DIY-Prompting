@@ -1,0 +1,41 @@
+.welcome-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.hero-image {
+  height: 500px;
+  background: url('https://janinesjourneys.com/wp-content/uploads/2021/01/Night-plane-window-Google.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.hero-text {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.welcome-text {
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
